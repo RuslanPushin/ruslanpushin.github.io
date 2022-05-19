@@ -1,0 +1,226 @@
+* {
+    /* outline: 1px solid orange; */
+}
+
+body {
+    font-family: Noto Sans, sans-serif;
+    background-color: #222222;
+    font-size: 14pt;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+.advantages {
+    background-color: #131313;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-left-block {
+    width: 260px;
+    justify-content: space-between;
+    padding-left: 125px;
+}
+
+.nav-right-block {
+    width: 80px;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+}
+
+.column div {
+    margin-left: 125px;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+    /* padding-top: 60px; */
+}
+
+.column {
+    width: 440px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 440px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.advantages-content {
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding-left: 0;
+}
+
+.advantage-item {
+    position: relative;
+
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.advantage-ico-rocket::before {
+    content: '';
+
+    width: 60px;
+    height: 68px;
+
+    position: absolute;
+    top: 50px;
+
+    background-image: url(../img/adv_ico_rocket.png);
+}
+
+.advantage-ico-bottle::before {
+    content: '';
+
+    width: 60px;
+    height: 68px;
+
+    position: absolute;
+    top: 50px;
+
+    background-image: url(../img/adv_ico_bottle.png);
+}
+
+.advantage-ico-spacer::before {
+    content: '';
+
+    width: 60px;
+    height: 68px;
+
+    position: absolute;
+    top: 50px;
+
+    background-image: url(../img/adv_ico_spacer.png);
+}
+
+.advantage-ico-flag::before {
+    content: '';
+
+    width: 60px;
+    height: 68px;
+
+    position: absolute;
+    top: 50px;
+
+    background-image: url(../img/adv_ico_flag.png);
+}
+
+footer {
+    background-color: #131313;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tail, .advantages-content li {
+    width: 180px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.tail h3 {
+    border-bottom: 1px solid #888888;
+    padding-bottom: 1em;
+    font-weight: 900;
+}
+
+.tail ul {
+    list-style: none;
+    padding-left: 0;
+    color: #888888;
+}
+
+.tail ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.tail-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tail-left div {
+    display: flex;
+}
+
+.tail-left div p {
+    padding-top: 10px;
+}
+
+.recommendations-list {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.recommendations-list li {
+    position: relative;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recommendations-list li::before {
+    content: '';
+
+    width: 8px;
+    height: 8px;
+
+    position: absolute;
+    left: -25px;
+    top: 7px;
+
+    background-color: #ffcb06;
+    border-radius: 50%;
+}
+    
